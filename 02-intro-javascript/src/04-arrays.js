@@ -16,9 +16,11 @@ let myArray2 = [...myArray, 5] //Spread array
 //     return item = item * 2
 // })
 
-let myArray3 = myArray2.map(item => {
-    return item * 2
-})
+// let myArray3 = myArray2.map(item => {
+//     return item * 2
+// })
+
+let myArray3 = myArray2.map(item => item * 2)
 
 
 console.log(myArray)
