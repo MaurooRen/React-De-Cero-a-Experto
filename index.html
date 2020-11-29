@@ -15,15 +15,14 @@
 
     <div id="root"></div>
 
-    <script type="text/babel"> // We are using Babel to transcript our code 
-    // to compatible code that the browser can undertand, like orw JSX below
+    <script type="text/babel"> // We are using Babel to transcript our code to compatible code that the browser can undertand, like orw JSX below
 
-        const divRoot = document.querySelector('root')
+        const divRoot = document.querySelector('#root') // This is the whole div with id #root
 
-        const h1Tag = <h1>Hola mundo</h1>
+        const name = 'Mauricio'
+        const h1Tag = <h1>Hi! my name is { name }</h1> // This is a html tag created with JSX
 
-
-
+        ReactDOM.render( h1Tag, divRoot ) // Here we are using a functionality of react to render a html tag into another one in the DOM
     </script>
     
 </body>
