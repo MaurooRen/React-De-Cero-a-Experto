@@ -8,4 +8,4 @@ import './index.css';
 const divRoot = document.querySelector('#root');
 
 //Aqui hacemos la importacion del componente PrimeraApp
-ReactDOM.render( <CounterApp value={123456} /> , divRoot);
+ReactDOM.render( <CounterApp value={10} /> , divRoot);
