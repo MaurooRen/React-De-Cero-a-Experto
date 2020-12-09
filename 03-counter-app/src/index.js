@@ -7,6 +7,5 @@ import './index.css';
 
 const divRoot = document.querySelector('#root');
 
-
 //Aqui hacemos la importacion del componente PrimeraApp
-ReactDOM.render( <PrimeraApp /> , divRoot);
+ReactDOM.render( <PrimeraApp saludo='Nunca inpaspi' /> , divRoot);
